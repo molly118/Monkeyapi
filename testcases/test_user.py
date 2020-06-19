@@ -6,9 +6,6 @@ from publicfunc import get_users_ids
 from gettoken import get_headers
 
 
-# headers = {'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1MjcwOTY5LCJzdWIiOiI1MjcwOTY5IiwiaWF0IjoxNTYwNzU3OTQ1LCJleHAiOjE1NjU5NDE5NDV9.9JXNlwJKSedgLR5WGgjn0L4KWfnyMkb8AGz8nmCrhQY'}
-
-
 class TestUserInfo(unittest.TestCase):
     def test_me_info_get(self):
         headers = get_headers()
